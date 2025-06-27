@@ -1,0 +1,8 @@
+{
+  "name": "My Extension",
+  "description": "My extension's very cool description",
+  "uuid": "my-extension@me",
+  "url": "https://github.com/me/my-extension",
+  "settings-schema": "org.gnome.shell.extensions.my-extension",
+  "shell-version": ["48"]
+}
