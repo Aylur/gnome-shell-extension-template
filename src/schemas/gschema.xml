@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <schemalist>
   <schema id="@id@" path="@path@">
-    <key name="string-key" type="s">
+    <key name="simple-key" type="s">
       <default>'value'</default>
+    </key>
+    <key name="complex-key" type="a{sv}">
+      <default>
+        <![CDATA[
+          {
+            'key1': <{'nested': 'value'}>,
+            'key2': <''>
+          }
+        ]]>
+      </default>
     </key>
   </schema>
 </schemalist>

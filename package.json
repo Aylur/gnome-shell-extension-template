@@ -1,15 +1,17 @@
 {
   "type": "module",
   "private": true,
-  "dependencies": {
+  "devDependencies": {
     "@girs/gjs": "latest",
     "@girs/gnome-shell": "latest",
     "@girs/adw-1": "latest",
     "esbuild": "latest",
-    "gnim": "latest",
     "eslint": "latest",
     "typescript": "latest",
     "typescript-eslint": "latest"
+  },
+  "dependencies": {
+    "gnim": "latest"
   },
   "scripts": {
     "build": "./make.nu build",

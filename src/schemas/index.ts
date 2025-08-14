@@ -1,10 +1,11 @@
 import { createContext, createSettings } from "gnim"
 
-export const settingKeys = Object.freeze({
-  "string-key": "s",
+export const schema = Object.freeze({
+  "complex-key": "a{sv}",
+  "simple-key": "s",
 })
 
-type Settings = ReturnType<typeof createSettings<typeof settingKeys>>
+type Settings = ReturnType<typeof createSettings<typeof schema>>
 
 export const SettingsContext = createContext<Settings | null>(null)
 
