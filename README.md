@@ -8,6 +8,9 @@
 > JavaScript to remain human-readable, which is currently not possible due to
 > how build tools work. Reviewers also discourage bundling, so working around
 > the inclusion of Gnim makes things even more complicated.
+>
+> See this
+> [discourse discussion](https://discourse.gnome.org/t/modern-typescript-support-for-gnome-shell-extensions/31311)
 
 1. Fill `metadata.json`
 2. `npm install`
